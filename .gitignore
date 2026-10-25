@@ -1,0 +1,7 @@
+# the image library is downloaded by scripts/get_library.py (it has its own repo)
+assets/library/*/
+assets/library/manifest.jsonl
+assets/library/INDEX.*
+assets/sources/cache/
+__pycache__/
+.DS_Store

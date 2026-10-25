@@ -1,0 +1,70 @@
+{
+  "_doc": "Category -> source -> queries. fetch_assets.py walks this file. Every source here is filtered to CC0 / public domain only. Add queries freely; re-runs skip files already in the manifest.",
+  "categories": {
+    "shells-fossils": {
+      "role": "spiral/radial hero specimens; nautilus is the archetype",
+      "openverse": ["nautilus shell", "nautilus shell cross section", "seashell white background", "ammonite fossil", "sea urchin test", "conch shell", "trilobite fossil", "sand dollar"],
+      "commons": ["nautilus shell section", "ammonite fossil specimen", "seashell specimen museum"],
+      "cleveland": ["shell"]
+    },
+    "anatomy-skeleton": {
+      "role": "bones, skulls, organs, anatomical plates; the 'structure under the skin' beat",
+      "openverse": ["whale skeleton", "skeleton museum specimen", "vertebrae", "skull specimen", "anatomical model heart", "fish skeleton", "bird skeleton"],
+      "commons": ["Leonardo da Vinci anatomical drawing", "Vesalius Fabrica plate", "Gray's Anatomy plate", "anatomical heart engraving", "skeleton engraving 18th century"],
+      "cleveland": ["anatomy", "skull"]
+    },
+    "macro-eyes-skin": {
+      "role": "extreme close-ups: iris, eye, fingerprint, wing membranes, feathers",
+      "openverse": ["eye iris macro", "horse eye close up", "fingerprint macro", "insect compound eye macro", "dragonfly wing macro", "butterfly wing scales macro", "feather macro", "leaf veins macro"],
+      "commons": ["dragonfly wing venation", "compound eye micrograph", "scanning electron micrograph pollen"]
+    },
+    "botanical": {
+      "role": "single plants on seamless: dandelion, olive tree, seed heads, flowers",
+      "openverse": ["dandelion seed head", "blue flower macro", "olive tree isolated", "bonsai tree", "seed pod", "fern frond", "lotus seed pod", "thistle flower", "x-ray flower"],
+      "commons": ["botanical illustration plate", "Curtis's Botanical Magazine plate", "Blossfeldt Urformen der Kunst", "herbarium specimen sheet"]
+    },
+    "creatures": {
+      "role": "animals and swarms: jellyfish, starfish, caterpillar, murmuration, flocks",
+      "openverse": ["jellyfish black background", "starfish", "caterpillar on stem", "starling murmuration", "sheep flock aerial", "beetle specimen collection", "octopus", "school of fish", "moth specimen"],
+      "commons": ["Kunstformen der Natur", "Haeckel radiolaria plate", "Haeckel jellyfish plate", "entomology specimen drawer"]
+    },
+    "geology-ice": {
+      "role": "geodes, agate, strata, frost, ice floes, glaciers",
+      "openverse": ["geode", "agate slice", "mineral specimen", "rock strata", "frost crystals", "ice floes aerial", "glacier aerial", "quartz crystal cluster", "meteorite slice", "bismuth crystal", "lava"],
+      "commons": ["mineral specimen white background", "agate polished slice", "Widmanstatten pattern meteorite"],
+      "cleveland": ["rock crystal"]
+    },
+    "cosmos": {
+      "role": "galaxy, moon, earth, black hole, planets; the closing 'moon' beat lives here",
+      "nasa": ["spiral galaxy", "nebula", "full moon", "lunar eclipse", "blue marble earth", "black hole", "jupiter", "saturn rings", "solar flare", "comet", "earthrise", "pillars of creation", "crab nebula", "galaxy cluster"],
+      "openverse": ["lightning bolt night", "milky way"]
+    },
+    "earth-aerial": {
+      "role": "top-down earth: waves, highway interchanges, grids, crowds, hurricanes",
+      "nasa": ["hurricane from space", "river delta from space", "sand dunes from orbit", "city lights at night from space", "glacier landsat", "phytoplankton bloom", "volcano from space"],
+      "openverse": ["aerial ocean waves", "highway interchange aerial", "aerial city grid", "aerial crowd shadows", "aerial farmland", "salt evaporation ponds aerial", "aerial forest", "whirlpool", "aerial beach", "terraced fields aerial"]
+    },
+    "machines-engineering": {
+      "role": "turbines, engines, gears, robot hands, fasteners, chips, dishes, trusses",
+      "openverse": ["jet engine", "turbine blades", "gears macro", "robot hand", "screws and bolts", "circuit board macro", "microchip die", "radio telescope dish", "steel truss bridge", "engine cutaway", "watch movement macro", "industrial robot arm", "satellite"],
+      "commons": ["jet engine cutaway museum", "watch movement", "integrated circuit die photo", "steam engine cutaway"],
+      "cleveland": ["astrolabe", "clock"]
+    },
+    "drawings-archive": {
+      "role": "notebook, patent, blueprint and technical drawings; da Vinci energy",
+      "commons": ["Leonardo da Vinci codex drawing", "Leonardo da Vinci flying machine", "patent drawing 1890", "architectural blueprint", "technical drawing locomotive", "astronomical chart 17th century", "Villard de Honnecourt", "orrery engraving", "Encyclopedie Diderot plate machine", "Piranesi"],
+      "openverse": ["blueprint", "patent drawing", "architectural sketch", "engineering drawing"],
+      "cleveland": ["drawing study"]
+    },
+    "studio-objects": {
+      "role": "single museum objects on seamless grounds: glass, bronze, instruments, armor",
+      "cleveland": ["glass", "vase", "bronze", "helmet", "armor", "instrument", "sculpture", "mirror", "bowl", "jade", "ceramic"],
+      "openverse": ["glass sculpture", "chrome sphere", "museum object white background"]
+    },
+    "textures-full-bleed": {
+      "role": "edge-to-edge surfaces between isolated objects: water, smoke, sand, cloud, marble",
+      "openverse": ["ocean surface texture", "sand dunes", "cumulus cloud", "smoke black background", "water ripples", "marble texture", "fire flames", "moss macro", "tree bark texture", "salt crystals macro"],
+      "nasa": ["clouds over ocean from space"]
+    }
+  }
+}

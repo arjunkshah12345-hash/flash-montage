@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- Specimen lab: open lab.html?name=moon&seed=3&t=0.5&w=1920&h=1080 over http (modules need it).
+     No name -> an index grid of every specimen. Used by scripts/render_specimens.py for stills. -->
+<html><head><meta charset="utf-8"><title>specimen lab</title>
+<style>html,body{margin:0;background:#111;overflow:hidden}canvas{display:block}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:6px;color:#ccc;font:12px monospace;overflow:auto;height:100vh;box-sizing:border-box}
+.grid canvas{width:100%;height:auto}</style></head>
+<body><script type="module">
+import { SPECIMENS, mountSpecimen } from "./specimens.js";
+const q = new URLSearchParams(location.search);
+const W = +(q.get("w") || 1920), H = +(q.get("h") || 1080);
+if (q.get("name")) {
+  const c = document.createElement("canvas"); document.body.appendChild(c);
+  const s = await mountSpecimen(c, q.get("name"), { seed: +(q.get("seed") || 1), width: W, height: H });
+  s.render(+(q.get("t") || 0));
+} else {
+  const g = document.createElement("div"); g.className = "grid"; document.body.appendChild(g);
+  const only = q.get("only") ? q.get("only").split(",") : Object.keys(SPECIMENS);
+  for (const name of only) {
+    const box = document.createElement("div"), c = document.createElement("canvas");
+    box.append(c, name); g.appendChild(box);
+    (await mountSpecimen(c, name, { seed: 1, width: 640, height: 360 })).render(0.5);
+  }
+}
+document.title = "done"; window.__done = true;
+</script></body></html>

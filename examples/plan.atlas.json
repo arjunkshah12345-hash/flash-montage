@@ -1,0 +1,7 @@
+{
+  "seed": 11,
+  "brand": "ATLAS",
+  "product": "Atlas Code",
+  "prompt": "Build a complex procedural 3D scene in Three.js.",
+  "info": [["Directory:", "/Users/atlas"], ["Model:", "Atlas 1.0"], ["Version:", "1.0.0"]]
+}

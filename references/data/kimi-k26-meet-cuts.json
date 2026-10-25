@@ -1,0 +1,181 @@
+{
+ "summary": {
+  "video": "v.webm",
+  "fps": 29.97002997002997,
+  "duration": 43.981,
+  "shots": 23,
+  "cuts_per_sec": 0.5,
+  "median_shot_frames": 39,
+  "shots_le_2f": 4,
+  "shots_le_4f": 4,
+  "holds_ge_24f": [
+   {
+    "start": 0.0,
+    "frames": 30
+   },
+   {
+    "start": 1.001,
+    "frames": 35
+   },
+   {
+    "start": 2.169,
+    "frames": 35
+   },
+   {
+    "start": 3.37,
+    "frames": 38
+   },
+   {
+    "start": 4.638,
+    "frames": 43
+   },
+   {
+    "start": 6.073,
+    "frames": 97
+   },
+   {
+    "start": 9.309,
+    "frames": 81
+   },
+   {
+    "start": 12.513,
+    "frames": 36
+   },
+   {
+    "start": 13.714,
+    "frames": 39
+   },
+   {
+    "start": 15.015,
+    "frames": 83
+   },
+   {
+    "start": 17.784,
+    "frames": 78
+   },
+   {
+    "start": 20.42,
+    "frames": 53
+   },
+   {
+    "start": 22.189,
+    "frames": 124
+   },
+   {
+    "start": 26.36,
+    "frames": 37
+   },
+   {
+    "start": 27.628,
+    "frames": 65
+   },
+   {
+    "start": 29.796,
+    "frames": 127
+   },
+   {
+    "start": 34.034,
+    "frames": 180
+   },
+   {
+    "start": 40.04,
+    "frames": 118
+   }
+  ],
+  "bursts": []
+ },
+ "shots": [
+  {
+   "start": 0.0,
+   "frames": 30
+  },
+  {
+   "start": 1.001,
+   "frames": 35
+  },
+  {
+   "start": 2.169,
+   "frames": 35
+  },
+  {
+   "start": 3.337,
+   "frames": 1
+  },
+  {
+   "start": 3.37,
+   "frames": 38
+  },
+  {
+   "start": 4.638,
+   "frames": 43
+  },
+  {
+   "start": 6.073,
+   "frames": 97
+  },
+  {
+   "start": 9.309,
+   "frames": 81
+  },
+  {
+   "start": 12.012,
+   "frames": 15
+  },
+  {
+   "start": 12.513,
+   "frames": 36
+  },
+  {
+   "start": 13.714,
+   "frames": 39
+  },
+  {
+   "start": 15.015,
+   "frames": 83
+  },
+  {
+   "start": 17.784,
+   "frames": 78
+  },
+  {
+   "start": 20.387,
+   "frames": 1
+  },
+  {
+   "start": 20.42,
+   "frames": 53
+  },
+  {
+   "start": 22.189,
+   "frames": 124
+  },
+  {
+   "start": 26.326,
+   "frames": 1
+  },
+  {
+   "start": 26.36,
+   "frames": 37
+  },
+  {
+   "start": 27.594,
+   "frames": 1
+  },
+  {
+   "start": 27.628,
+   "frames": 65
+  },
+  {
+   "start": 29.796,
+   "frames": 127
+  },
+  {
+   "start": 34.034,
+   "frames": 180
+  },
+  {
+   "start": 40.04,
+   "frames": 118
+  }
+ ]
+}
